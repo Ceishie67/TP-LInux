@@ -94,5 +94,13 @@ sudo echo $RANDOM
 
 ## 1. Mise en place
 
-### Installer le serveur NGINX
+### 🌞 Installer le serveur NGINX
+
+```
+sudo dnf install nginx
+```
+
+### 🌞 Démarrer le service NGINX
+
+### 🌞 Déterminer sur quel port tourne NGINX
 
