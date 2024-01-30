@@ -69,3 +69,19 @@ LISTEN  0       128               [::]:22             [::]:*
 Jan 30 14:17:58 tp3linux sshd[1307]: Accepted password for nath from 10.1.1.1 port 62232 ssh2
 Jan 30 14:17:58 tp3linux sshd[1307]: pam_unix(sshd:session): session opened for user nath(uid=1000) by (uid=0)
 ```
+## 2. Modification du service
+
+### 🌞 Identifier le fichier de configuration du serveur SSH
+
+```
+cd /etc/ssh/
+
+moduli              ssh_host_ecdsa_key.pub    ssh_host_rsa_key.pub
+ssh_config          ssh_host_ed25519_key      sshd_config
+ssh_config.d        ssh_host_ed25519_key.pub  sshd_config.d
+ssh_host_ecdsa_key  ssh_host_rsa_key
+
+```
+
+### 🌞 Modifier le fichier de conf
+
