@@ -61,3 +61,11 @@ LISTEN  0       128               [::]:22             [::]:*
 ```
 
 ### 🌞 Consulter les logs du service SSH
+
+````
+ journalctl -xe -u sshd
+
+ Jan 30 14:17:55 tp3linux sshd[1307]: main: sshd: ssh-rsa algorithm is disabled
+Jan 30 14:17:58 tp3linux sshd[1307]: Accepted password for nath from 10.1.1.1 port 62232 ssh2
+Jan 30 14:17:58 tp3linux sshd[1307]: pam_unix(sshd:session): session opened for user nath(uid=1000) by (uid=0)
+```
