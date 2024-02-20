@@ -33,3 +33,19 @@ sudo lvcreate -l 100%FREE storage -n lvgroupedata
 Logical volume "lvgroupedata" created.
 ```
 
+### 🌞 Formater la partition
+
+```
+sudo mkfs -t ext4 /dev/storage/lvgroupedata
+
+
+Creating filesystem with 1046528 4k blocks and 261632 inodes
+Filesystem UUID: 5e93146a-c361-4fff-b8ad-87ea5ee5d7c3
+Superblock backups stored on blocks:
+    32768, 98304, 163840, 229376, 294912, 819200, 884736
+
+Allocating group tables: done
+Writing inode tables: done
+Creating journal (16384 blocks): done
+Writing superblocks and filesystem accounting information: done
+```
