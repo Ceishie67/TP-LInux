@@ -49,3 +49,17 @@ Writing inode tables: done
 Creating journal (16384 blocks): done
 Writing superblocks and filesystem accounting information: done
 ```
+### 🌞 Monter la partition
+```
+sudo mount /dev/storage/lvgroupedata /mnt/data1
+```
+
+```
+df -h
+
+/dev/mapper/storage-lvgroupedata  3.9G   24K  3.7G   1% /mnt/data1
+
+df -h | grep mnt
+
+/dev/mapper/storage-lvgroupedata  3.9G   24K  3.7G   1% /mnt/data1
+```
