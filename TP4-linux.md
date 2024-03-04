@@ -63,3 +63,7 @@ df -h | grep mnt
 
 /dev/mapper/storage-lvgroupedata  3.9G   24K  3.7G   1% /mnt/data1
 ```
+
+## Partie 2 : Serveur de partage de fichiers
+
+### 🌞 Donnez les commandes réalisées sur le serveur NFS storage.tp4.linux
