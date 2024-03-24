@@ -2,8 +2,10 @@
 ![Alt text](image.png)
 
 ## Partie 1 : Script carte d'identité
-
+```
 [nath@localhost idcard]$ /srv/idcard/idcard.sh
+```
+```
 Machine name: Static
 OS Rocky Linux 9.2 (Blue Onyx) and kernel version is 5.14.0-284.11.1.el9_2.x86_64
 IP: 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -51,3 +53,4 @@ LISTEN 0      128             [::]:22            [::]:*
 PATH directories :
   - /usr/local/bin
  - /srv/idcard
+```
