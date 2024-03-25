@@ -7,8 +7,11 @@
 ```
 ```
 Machine name: Static
+
 OS Rocky Linux 9.2 (Blue Onyx) and kernel version is 5.14.0-284.11.1.el9_2.x86_64
+
 IP: 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
        valid_lft forever preferred_lft forever
@@ -26,6 +29,7 @@ IP: 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group de
        valid_lft 76763sec preferred_lft 76763sec
     inet6 fe80::a00:27ff:fe08:b9b6/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
+
 RAM :               total        used        free      shared  buff/cache   available
 Mem:           1.7Gi       508Mi       991Mi       4.0Mi       428Mi       1.2Gi
 Swap:          2.0Gi          0B       2.0Gi memory available on 1.7Gi  total memory
